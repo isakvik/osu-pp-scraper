@@ -32,7 +32,6 @@ public class CalculatorManager {
 	            	///////////////////////////////////////////////////////////////
 
 	            	if(line.startsWith("aim: ")){
-	            		System.out.println(line);
 	            		score.aimValue = Float.parseFloat(line.substring(5));
 		            	score.speedValue = Float.parseFloat(in.readLine().substring(7));
 		            	score.accValue = Float.parseFloat(in.readLine().substring(10));
